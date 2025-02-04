@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins" rel="stylesheet">
+
+    <!-- google icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"/>
+
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- styles css -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media-query.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="nav-logo">
+                <a href="#inicio">Delivery</a>
+            </div>
+            <div class="nav-sections">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#sobre">Sobre nós</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#app">Aplicativo</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="#" class="button">Peça Agora!</a>
+            </div>
+            <div class="menu" onclick="menushow()">
+                <span class="material-symbols-outlined" id="menubar">menu</span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="inicio">
+            <div class="inicio-content">
+                <h1>Bem-vindo ao Delivery!</h1>
+                <p>Entregas rápidas e seguras, levando o que você precisa até a sua porta!</p>
+                <div><a href="#home" class="button">Começar</a></div>
+            </div>
+            <div class="inicio-img">
+                <img src="./assets/home.svg" alt="Imagem genérica">
+            </div>
+        </section>
+        <section id="sobre">
+            <div class="sobre-img">
+                <img src="./assets/sobre.svg" alt="Imagem genérica">
+            </div>
+            <div class="sobre-content">
+                <h1>Sobre Nós</h1>
+                <p>Somos especializados em soluções de entrega eficientes, comprometidos em oferecer um serviço ágil e confiável para atender às suas necessidades.</p>
+            </div>
+        </section>
+        <section id="servicos">
+            <div class="servicos-title">
+                <h1>Nossos Serviços</h1>
+            </div>
+            <div class="servicos-services">
+                <div class="service">
+                    <h2>Entrega</h2>
+                    <img src="./assets/serviço-2.svg" alt="Imagem genérica">
+                    <p>Compromisso com prazos e eficiência nas entregas.</p>
+                    <a href="#">ver mais</a>
+                </div>
+                <div class="service">
+                    <h2>Rastreamento</h2>
+                    <img src="./assets/serviço-3.svg" alt="Imagem genérica">
+                    <p>Acompanhe sua entrega a qualquer momento.</p>
+                    <a href="#">ver mais</a>
+                </div>
+                <div class="service">
+                    <h2>Atendimento</h2>
+                    <img src="./assets/serviço-1.svg" alt="Imagem genérica">
+                    <p>Equipe dedicada para resolver suas dúvidas e garantir sua satisfação.</p>
+                    <a href="#">ver mais</a>
+                </div>
+            </div>
+        </section>
+        <section id="app">
+            <div class="app-img">
+                <img src="./assets/app.svg" alt="Imagem genérica">
+            </div>
+            <div class="app-content">
+                <h1>Baixe Nosso Aplicativo</h1>
+                <p>Tenha nosso serviço na palma da mão! Com o aplicativo, você faz pedidos rapidamente e acompanha suas entregas em tempo real. Disponível para Android e iOS. Baixe agora e aproveite a conveniência!</p>
+                <div class="buttons">
+                    <a href="#" class="button"><i class="fa-brands fa-apple"></i>Apple Store</a>
+                    <a href="#" class="button"><i class="fa-brands fa-google-play"></i>Google Play</a>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="content">
+                <h2>Contato</h2>
+                <p>Quer saber mais? Entre em contato e teremos prazer em ajudar!</p>
+            </div>
+            <div class="contact">
+                <p><span>telefone:</span> 11 9999-9999</p>
+                <p><span>E-mail:</span> delivery@gmail.com</p>
+                <p><span>local:</span> São Paulo</p>
+            </div>
+            <a href="#" class="button">Contate-nos</a>
+        </section>
+    </main>
+    <footer>
+        <p><i class="fa-regular fa-copyright"></i>Site feito por Gabriel dos Santos Ribeiro</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

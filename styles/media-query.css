@@ -1,0 +1,93 @@
+@media screen and (max-width: 1000px) {
+    :root {
+        --size-h1: 3rem;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .nav-button {
+        display: none;
+    }
+
+    .nav-sections ul {
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+        margin: auto;
+        width: 100vw;
+        top: 65px;
+        left: 100%;
+        gap: 20px;
+        padding: 10px 0px;
+        background-color: var(--bg-color);
+        transition: .3s;
+    }
+
+    .nav-sections ul.open {
+        left: 0;
+        transition: .3s;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    :root {
+        --padding-section: 50px;
+    }
+
+    img {
+        padding: 0px 50px;
+    }
+
+    section {
+        flex-direction: column;
+        padding: 50px 0px;
+    }
+
+    #sobre, #app {
+        flex-direction: column-reverse;
+        gap: 70px;
+    }
+
+    .app-content, .app-img, .sobre-img, .sobre-content {
+        width: 100%;
+    }
+
+    .servicos-services {
+        flex-direction: column;
+    }
+
+    .service {
+        margin: 0px 30px;
+    }
+
+    #contato {
+        flex-direction: column;
+        gap: 30px;
+        align-items: flex-start;
+    }
+
+    #contato .content {
+        width: 100%;
+        line-height: 1.5;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    :root {
+        --size-h1: 2.5rem;
+    }
+
+    img {
+        padding: 0;
+    }
+    
+    .service {
+        padding: 10px 60px;
+    }
+
+    #contato .content h2 {
+        font-size: 1.8rem;
+    }
+}
