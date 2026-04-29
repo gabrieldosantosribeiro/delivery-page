@@ -4,6 +4,22 @@
   <img src="./assets/banner.png" alt="Delivery Banner" />
 </p>
 
+<p align="center">
+  <a href="https://gabrieldosantosribeiro.github.io/delivery-page/" target="_blank">
+    <img src="https://img.shields.io/badge/🔗%20Acessar%20Projeto-online-yellow?style=for-the-badge" />
+  </a>
+</p>
+
+---
+
+## 🌐 Acesse o projeto
+
+Você pode visualizar o projeto funcionando aqui:
+
+👉 https://gabrieldosantosribeiro.github.io/delivery-page/
+
+---
+
 ## 📖 Sobre o projeto
 
 Este projeto consiste em uma **landing page de delivery**, desenvolvida totalmente do zero utilizando **HTML, CSS e JavaScript**.
@@ -24,9 +40,9 @@ O foco foi aplicar na prática conceitos fundamentais de desenvolvimento web, cr
 
 * Layout moderno e organizado
 * Navegação entre seções
-* Estrutura de landing page completa
+* Estrutura completa de landing page
 * Interface responsiva
-* Seções como:
+* Seções:
 
   * Início
   * Sobre
@@ -58,13 +74,13 @@ delivery/
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/delivery.git
+git clone https://github.com/gabrieldosantosribeiro/delivery-page.git
 ```
 
 2. Acesse a pasta:
 
 ```bash
-cd delivery
+cd delivery-page
 ```
 
 3. Abra o arquivo:
