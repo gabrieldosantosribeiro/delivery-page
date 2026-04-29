@@ -52,23 +52,6 @@ O foco foi aplicar na prática conceitos fundamentais de desenvolvimento web, cr
 
 ---
 
-## 📂 Estrutura do projeto
-
-```bash
-delivery/
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── assets/
-│   └── banner.png
-│
-└── README.md
-```
-
----
-
 ## 📦 Como executar
 
 1. Clone o repositório:
